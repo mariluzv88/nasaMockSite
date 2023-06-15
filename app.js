@@ -62,4 +62,9 @@ const onMoon = () =>{
     human.classList.toggle('hop')
 }
 
+const shrinkOut = () =>{
+    let goAway = document.querySelector('.nasa')
+    goAway.classList.toggle('shrink')
+}
+
 

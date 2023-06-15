@@ -19,6 +19,18 @@
         transform: translateX(110vw);
     }
 }
+@keyframes shrink {
+    0%{
+        width: 120px;
+       height: 120px;
+    }
+   
+    100%{
+        height: 0%;
+        width: 0%;
+    }
+}
+
 
 
 
@@ -69,6 +81,9 @@ border-color: rgba(240, 248, 255, 0.02);
 .sun{
     height: 100%;
     width: 100%;
+}
+.shrink{
+    animation: shrink 4s ease-in-out infinite;  
 }
 /* .box{
     border: solid white;
@@ -154,6 +169,11 @@ background-size:  100% 100%;
     height: 200px;
     margin-top: 150px;
     animation: hop 8s ease-in-out infinite;
+}
+.moonWalker:hover{
+    height: 200px;
+    margin-top: 150px;
+    animation-play-state: paused;
 }
 .moon{
     width: 100%;
