@@ -1,0 +1,160 @@
+@keyframes rocketFly {
+    0%{
+     
+     transform:translateY(45px)
+    }
+   
+    100%{
+    /* transform:translatez(-22px) */
+    transform: translateY(-55px);
+    
+    }
+}
+@keyframes hop {
+    0%{
+        transform: translateY(0px);
+    }
+   
+    100%{
+        transform: translateX(110vw);
+    }
+}
+
+
+
+
+body{
+    background-image: url("https://spaceengine.org/media/2016/06/pattern.png");
+}
+.banner{
+    /* border: solid white; */
+    height: 160px;
+    display: flex;
+    justify-content: center;
+}
+.banImg{
+    width: 90%;
+}
+.nextBan{
+width: 5%; 
+color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+border-color: rgba(240, 248, 255, 0.02);
+}
+
+.rocket{
+   animation: rocketFly 2s ease-in-out infinite;
+   height: 50px;
+   width: 50px;
+    
+}
+.logoNav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nasa{
+    width: 120px;
+    height: 120px;
+}
+.solarContainer{
+    /* border: solid red; */
+    height: 1220px;
+    width: 1220px;
+    margin-left: 20%;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/4ZV3LNm7m4X7qn5AuCcHFQ.gif");
+    background-size: 100% 100%;
+   
+}
+.sun{
+    height: 100%;
+    width: 100%;
+}
+/* .box{
+    border: solid white;
+ height: 120vh;
+ background-image: none;
+ font-size: 50px;
+ color: yellow;
+ margin: 0px;
+} */
+.the{
+    background-color: rgba(0, 0, 0, 0);
+    border: solid rgba(255, 255, 0, 0);
+    height: 200px;
+    width: 200px;
+    /* margin: 500px 500px 500px 700px; */
+    color: yellow;
+    font-size: 55px;
+}
+.articlesContainer{
+    
+    height: 90vh;
+     display: flex;
+    justify-content: space-evenly;
+}
+.articles{
+   
+    
+    height: 70%;
+    width: 30%;
+}
+.title{
+    background-color: rgba(0, 255, 255, 0.223);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 100%;
+    color: white;
+}
+.artDeatz{
+    height: 237px;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    background-color: rgba(0, 255, 255, 0.655);
+}
+.art1{
+    height: 100%;
+    width: 100%;
+background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/artemis_i_mission_map_nov.jpg");
+background-size:  100% 100%;
+}
+.art1:hover{
+    height: 100%;
+    width: 100%;
+background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/cmcab3_202211181205502_enhanced_colorpop.jpg");
+background-size:  100% 100%;
+}
+.art2{
+    height: 100%;
+    width: 100%;
+background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/sts109-730-034.jpg");
+background-size:  100% 100%;
+}
+.art2:hover{
+    height: 100%;
+    width: 100%;
+background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/hubble_runawayblackhole_stsci-01gx657xta7kn3a8rpsdxs9d07.png");
+background-size:  100% 100%;
+}
+.art3{
+    height: 100%;
+    width: 100%;
+background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/jpegpia21771.width-1600.jpg");
+background-size:  100% 100%;
+}
+.art3:hover{
+    height: 100%;
+    width: 100%;
+background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia25015.jpg");
+background-size:  100% 100%;
+}
+.moonWalker{
+    height: 200px;
+    margin-top: 150px;
+    animation: hop 8s ease-in-out infinite;
+}
+.moon{
+    width: 100%;
+}
